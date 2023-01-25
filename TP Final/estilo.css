@@ -1,0 +1,112 @@
+* {
+    box-sizing: border-box; /*garantiza que el padding y el border de cada elemento estén dentro del ancho del elemento*/
+    background-color: #DBDBEE;
+    font-family: 'Josefin Sans', sans-serif;    
+}
+
+.col-1 {width: 8.33;} /*esta clase me da el ancho de columna para establecer el ancho de los elementos*/
+
+header {
+    position: relative;
+    top: 30px;
+    width: 70;
+    height: 75px;
+    background-color: #48487A;
+}
+
+footer {
+    display: block;
+    bottom: 20px;
+    width: 70;
+    height: 50px;
+    background-color: #48487A;
+}
+
+h1 {
+    color: white;
+    background-color: #48487A;
+    font-size: 32px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+h2 {
+    margin: 10px 0px 5px 0px;
+    padding: 10px;
+    background-color: #48487A;
+}
+
+.lista {
+    background-color: #68689A;
+}
+
+#foto {
+    width: 150px;
+    height: 150px;
+    background-repeat: no-repeat;
+    border: 1px solid white;
+    background-position: 50%;
+    border-radius: 50%;
+}
+
+#contenedor1 {
+    width: 75%;
+    float: right;
+    padding-left: 10px;
+}
+
+#contenedor2 {
+    padding: 0px;
+    position: absolute;
+    top: 10px;
+    left: 50px;
+    width: 20%;
+    float: left;
+    background-color: #68689A;
+}
+
+input {
+    color: white;
+    background-color: #68689A;
+}
+
+.solapa{
+    color: white;
+    background-color:  #68689A;
+    padding: 10px;
+}
+
+.listasDesplegables {
+    width: 25%;
+    padding: 10px;
+    border: 3px solid;
+    border-radius: 10px;
+    background-color: #68689A;
+    color: white;
+    text-align: center;
+}
+
+summary {
+    list-style: none;
+}
+
+.botones {
+    padding: 10px;
+    border: 5px; 
+    color: white; 
+    background-color: #68689A; 
+    border: solid;
+    border-color: white; 
+    border-radius: 10px;
+}
+
+.listDiv {
+    display: inline;
+    margin: 0px;
+    width: 300px;
+}
+
+#carta {
+    font-size: 25px;
+    font-weight: bold;
+}
