@@ -7,6 +7,7 @@
 .col-1 {width: 8.33;} /*esta clase me da el ancho de columna para establecer el ancho de los elementos*/
 
 header {
+    display: block;
     position: relative;
     top: 0px;
     width: 70;
@@ -71,6 +72,7 @@ input {
 }
 
 .solapa{
+    width: 97%;
     color: white;
     background-color:  #68689A;
     padding: 10px;
@@ -119,4 +121,24 @@ summary {
 #carta {
     font-size: 25px;
     font-weight: bold;
+}
+
+.parrafo {
+    text-indent: 20px;
+    text-align: justify;
+    font-size: 18px;
+}
+
+#contenedorParrafo {
+    width: 97%;
+}
+
+#decorasao {
+    
+    width: 0px;
+    height: 0px;
+}
+#cuerpo2 {
+    width: 0px;
+    height: 0px;
 }

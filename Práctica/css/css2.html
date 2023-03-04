@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estilos por hoja de estilos</title>
+
+    <!--
+        2) utilizar una hoja de estilos css externa
+
+        se vinculan las páginas y la hoja de estilo escribiendo el siguiente link en el head:
+
+        <link rel="stylesheet" type="text/css" href="/style.css" />
+
+    -->
+
+    <link rel="stylesheet" type="text/css" href="estilos.css" />
+    <!--
+        Para elegir letra hay q ir a google fonts, buscar la letra, copiar el link y pegarlo en el head del html, 
+luego en css se elige el tipo de la familia
+    -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h1>hola mundo!</h1>
+    <p>esto es un párrafo</p>
+
+    <!--
+        3) inline style:
+        el estilo se especifíca en la misma línea del elemento
+    -->
+    <h3 style="border: 1px solid red">este título tiene inline style</h3>
+    <section>
+        <h1>título</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos cupiditate rerum qui nisi possimus aperiam quibusdam. Veritatis nihil alias enim, harum sit corporis natus at excepturi est, porro error quasi.<br><br>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos ab dolores debitis minus, architecto voluptas, expedita quidem libero provident illum necessitatibus laborum sed a reiciendis vitae deleniti officia eligendi quaerat.<br><br>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cum laboriosam ea inventore recusandae nulla, quidem sapiente ullam reprehenderit consequatur. Numquam eveniet blanditiis minima ab necessitatibus quibusdam aliquam fuga dolorem quas!
+        </p>
+        <ul>
+            <li>elemento 1</li>
+            <li>elemento 2</li>
+            <li>elemento 3</li> 
+        </ul>
+    </section>
+
+    <p>parrafo 1</p>
+
+    <p id="mi_parrafo">parrafo 2 designado unívocamente con id y asignada otra característica</p>
+    
+    <p>parrafo 3</p>
+    <p>parrafo 4</p>
+    
+    <!-- el nombre de la clase se pone sin punto en html y se define con punto en css-->
+    <p class="miclase">parrafo 5</p>
+
+</body>
+</html>

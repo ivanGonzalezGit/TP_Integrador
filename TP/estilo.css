@@ -1,0 +1,64 @@
+* {
+    box-sizing: border-box; /*garantiza que el padding y el border de cada elemento estén dentro del ancho del elemento*/
+    background-color: rgb(222, 222, 222);
+    font-family: 'Josefin Sans', sans-serif;
+    
+    /*foto de fondo*/
+    
+}
+
+.col-1 {width: 8.33;} /*esta clase me da el ancho de columna para establecer el ancho de los elementos*/
+
+#foto {
+    width: 150px;
+    height: 150px;
+    background-repeat: no-repeat;
+    border: 1px solid black;
+    background-position: 50%;
+    border-radius: 50%;
+}
+
+#contenedor1 {
+    width: 80%;
+    float: right;
+    padding-left: 10px;
+    background-image: url("wallpaper.jpeg");
+}
+
+#contenedor2 {
+    width: 20%;
+    float: left;
+    background-color: rgb(53, 53, 53);
+}
+
+input {
+    color: white;
+    background-color: rgb(53, 53, 53);
+}
+
+.solapa{
+    color: white;
+    background-color:  rgb(53, 53, 53);
+    padding: 10px;
+}
+
+.listasDesplegables {
+    width: 25%;
+    padding: 10px;
+    border: 3px solid;
+    border-radius: 10px;
+    background-color: rgb(131, 127, 123);
+    text-align: center;
+}
+
+
+summary {
+    list-style: none;
+}
+
+#prueba {
+    height: 100px;
+    width: 100px;
+    content: ''; /* para que lo muestre*/
+    background-color: blue;
+}

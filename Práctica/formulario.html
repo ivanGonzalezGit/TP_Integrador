@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulario</title>
+</head>
+<body>
+    <p>Los formularios se usan para obtener información por el ingreso de datos del usurario.
+        Contienen elementos anidados como etiquetas y campos.
+    </p>
+<!-- -->
+    <form action="" method="post"> 
+        <label>Nombre</label><br>
+        <input type="text" name="nombre" placeholder="Ingrese su nombre" required /><br><br>
+
+        <label>Apellido</label><br>
+        <input type="text" name="apellido" placeholder="Ingrese su apellido" required /><br><br>
+
+        <label>E-mail</label><br>
+        <input type="email" name="email" placeholder="Ingrese su e-mail" required /><br><br>
+
+        <label>Password</label><br>
+        <input type="password" name="password" required /><br><br>
+
+        <input type="submit" value="Enviar" />
+    </form>
+
+    <ul>
+        <li> El atributo action de la etiqueta form enlaza el formulario con otra url</li>
+        <li> El método de envío get muestra los datos enviados en la url, no hay q usarlo si se trabaja con contraseñas.</li>
+        <li> El método post no muestra los datos al enviarlos</li>
+    </ul>
+        
+    
+
+</body>
+</html>

@@ -1,0 +1,28 @@
+#uno {
+    weigth: 100%;
+    height: 100px;
+    background-color: blue;
+}
+
+#dos {
+    position: absolute;
+    left: 30px;
+    top: 0%;
+    width: 25%;
+    background-color: yellow;
+}
+ h1 {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+    font-size: 18px;
+    color: white;
+ }
+#foto {
+    position: static;
+    width: 100%;
+    heigth: auto;
+
+
+    
+}
